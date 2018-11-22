@@ -21,7 +21,10 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [],
+      "scripts": {
+        "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json"
+      },
+      
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
